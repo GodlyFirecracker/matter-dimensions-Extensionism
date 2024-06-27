@@ -388,7 +388,7 @@ functions["a14_1_effect"] = () => {
 }
 
 functions["a14_2_effect"] = () => {
-    return get_atom_level('a14').pow(1.75).add(1);
+    return get_atom_level('a14').pow(1.75);
 }
 
 functions["a01_1_goal"] = () => {
