@@ -49,7 +49,7 @@ functions["goal_g5"] = () => {
     return !player.gravitons.lt(100);
 };
 functions["goal_g6"] = () => {
-    return !player.gravitons.lt(10000000000000000);
+    return !player.gravitons.lt(100);
 };
 functions["goal_g7"] = () => {
     return !player.gravitons.lt(75);
