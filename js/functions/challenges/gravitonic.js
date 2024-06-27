@@ -34,10 +34,10 @@ functions["start_g0"] = () => {
 };
 
 functions["goal_g1"] = () => {
-    return !player.gravitons.lt(100);
+    return !player.gravitons.lt(60);
 };
 functions["goal_g2"] = () => {
-    return !player.gravitons.lt(100);
+    return !player.gravitons.lt(60);
 };
 functions["goal_g3"] = () => {
     return !player.gravitons.lt(100);
@@ -52,13 +52,13 @@ functions["goal_g6"] = () => {
     return !player.gravitons.lt(100);
 };
 functions["goal_g7"] = () => {
-    return !player.gravitons.lt(100);
+    return !player.gravitons.lt(75);
 };
 functions["goal_g8"] = () => {
     return !player.gravitons.lt(100);
 };
 functions["goal_g0"] = () => {
-    return !player.gravitons.lt(100);
+    return !player.gravitons.lt(50);
 };
 
 functions["end_g1"] = () => {

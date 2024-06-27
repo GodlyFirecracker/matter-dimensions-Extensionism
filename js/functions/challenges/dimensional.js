@@ -41,19 +41,19 @@ functions["goal_d4"] = () => {
     return !player.shards.lt(1e24);
 };
 functions["goal_d5"] = () => {
-    return false;
+    return !player.shards.lt(1e26);
 };
 functions["goal_d6"] = () => {
-    return false;
+    return !player.shards.lt(1e30);
 };
 functions["goal_d7"] = () => {
-    return false;
+    return !player.shards.lt(1e37);
 };
 functions["goal_d8"] = () => {
-    return false;
+    return !player.shards.lt(1e44);
 };
 functions["goal_d0"] = () => {
-    return false;
+    return !player.shards.lt(1e50000000000);
 };
 
 

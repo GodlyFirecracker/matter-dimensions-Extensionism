@@ -170,6 +170,8 @@ function max_dimensional_shifts() {
     let base = 4;
     // a05_4: can perform one more DimShift
     if (player.milestones['a05_4'].is_active()) base += 1;
+    // d0: can perform Final three more DimShift
+    if (!(!player.challenges['d0'].inC() && (player.challenges['d4'].inC() || player.challenges['d4'].completed))) base += 3;
     // "Projection Analysis" experiment: can perform less DimShifts
     if (player.evolutions['b12'].is_active()) base -= player.experiments['projection_analysis'].get_nerf().toInt();
     

@@ -35,16 +35,16 @@ functions["upg_INERTIA_1_cost"] = (amt) => {
     return big(15 * 60 * 1000).mult(big(2).pow(amt));
 }
 functions["upg_INERTIA_2_cost"] = (amt) => {
-    return big(5 * 60 * 1000).mult(big(12).pow(amt));
+    return big(5 * 30 * 1000).mult(big(12).pow(amt));
 }
 functions["upg_INERTIA_3_cost"] = (amt) => {
-    return big(36 * 60 * 1000).mult(big(5).pow(amt));
+    return big(18 * 60 * 1000).mult(big(5).pow(amt));
 }
 functions["upg_INERTIA_4_cost"] = (amt) => {
-    return big(6 * 60 * 1000).mult(big(10).pow(amt));
+    return big(3 * 60 * 1000).mult(big(10).pow(amt));
 }
 functions["upg_INERTIA_5_cost"] = (amt) => {
-    return big(8 * 60 * 60 * 1000).mult(big(3).pow(amt));
+    return big(4 * 60 * 60 * 1000).mult(big(4).pow(amt));
 }
 functions["upg_INERTIA_1_power"] = (amt) => {
     return big(30 * 60 * 1000).mult(big(2).pow(amt)).round();
@@ -60,10 +60,10 @@ functions["upg_INERTIA_4_power"] = (amt) => {
 }
 functions["upg_INERTIA_5_power"] = (amt) => {
     switch (big(amt).toInt()) {
-        case 1: return big(40);
-        case 2: return big(70);
-        case 3: return big(90);
-        case 4: return big(100);
+        case 1: return big(50);
+        case 2: return big(75);
+        case 3: return big(100);
+        case 4: return big(200);
         default: return big(0);
     }
 }

@@ -20,3 +20,7 @@ functions["challenge_reset_vacuumic"] = () => {
 functions["challenge_reset_dimensional"] = () => {
     reset_atomic(true);
 };
+
+functions["challenge_reset_Atomic"] = () => {
+    reset_biological(true);
+};
