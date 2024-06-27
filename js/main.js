@@ -861,6 +861,7 @@ class Player {
         this.milestones["a13_1"] = new Milestone("a13_1", "a13_1_availability", "a13_1_activation", "a13_1_effect", "a13_1_goal");
 
         this.milestones["a14_1"] = new Milestone("a14_1", "a14_1_availability", "a14_1_activation", "a14_1_effect", "a14_1_goal");
+        this.milestones["a14_2"] = new Milestone("a14_2", "a14_2_availability", "a14_2_activation", "a14_2_effect", "a14_2_goal");
 
         this.settings = JSON.parse(JSON.stringify(default_settings));
 
