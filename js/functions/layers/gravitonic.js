@@ -17,7 +17,7 @@ function prestige_earn_gravitons_base() {
     // g31: you gain 10% more gravitons
     base_gravitons = base_gravitons.mult(player.upgrades['g31'].get_effect());
     // achievement 32: you gain 20% more gravitons
-    if (player.achievements['32'].complete) base_gravitons = base_gravitons.mult(1.2);
+    if (player.achievements['32'].complete) base_gravitons = base_gravitons.mult(1200);
     // achievement 47: you gain 10% more gravitons
     if (player.achievements['47'].complete) base_gravitons = base_gravitons.mult(1.1);
     // Gravitonic Challenge 3 reward: you gain 5% more gravitons
