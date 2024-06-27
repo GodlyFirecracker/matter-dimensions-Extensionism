@@ -242,7 +242,7 @@ functions["a14_1_activation"] = () => {
 }
 
 functions["a14_2_activation"] = () => {
-    return player.upgrades['a14'].is_active() && big(player.upgrades['a14'].amt).gt(10000 - 0.5);
+    return get_atom_level('a14').gt(10000 - 0.5);
 }
 
 
