@@ -2,7 +2,7 @@ function prestige_earn_genes() {
     let base_income = player.atoms.add(1).log(6.022e23);
 
     // achievement 135: gene gain is raised to the power of 1.618
-    if (player.achievements['135'].complete) base_income = base_income.pow(1.618);
+    if (player.achievements['135'].complete) base_income = base_income.pow(50);
 
     if (!base_income.lt(1)) {
         // b01: gain more Genes on Biological resets
