@@ -47,10 +47,10 @@ functions["goal_d6"] = () => {
     return !player.shards.lt(1e30);
 };
 functions["goal_d7"] = () => {
-    return !player.shards.lt(1e37);
+    return !player.shards.lt(1e33);
 };
 functions["goal_d8"] = () => {
-    return !player.shards.lt(1e44);
+    return !player.shards.lt(1e36);
 };
 functions["goal_d0"] = () => {
     return !player.shards.lt(1e50000000000);
