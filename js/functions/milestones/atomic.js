@@ -285,7 +285,7 @@ functions["a02_4_effect"] = () => {
 }
 
 functions["a03_1_effect"] = () => {
-    return get_atom_level('a03').add(1);
+    return get_atom_level('a03').add(10000000000000000000000000000000000000);
 }
 functions["a03_2_effect"] = () => {
     return big(1);
