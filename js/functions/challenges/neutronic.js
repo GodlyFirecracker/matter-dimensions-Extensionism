@@ -108,7 +108,7 @@ functions["goal_amt_n5"] = (c) => {
     return big(10).pow(big(1).pow(c-1).mult(100));
 };
 functions["goal_amt_n6"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(5).pow(c-1).mult(100));
 };
 functions["goal_amt_n7"] = (c) => {
     return big(10).pow(big(1).pow(c-1).mult(100));
