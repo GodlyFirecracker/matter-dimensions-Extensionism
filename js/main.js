@@ -353,9 +353,13 @@ class Player {
         this.achievements["161"] = new Achievement("161", "Heresy", "Buy 9th Matter Dimension", "check_161");
         this.achievements["162"] = new Achievement("162", "Elemental Millionaire", "Have an element with a total level of over a million", "check_162");
         this.achievements["163"] = new Achievement("163", "Abiogenesis", "Biological with only one Atomic reset in the current Biological", "check_163");
+        this.achievements["164"] = new Achievement("164", "A quarter to 1e1e7", "Reach 1e2.5e6 matter", "check_164");
         this.achievements["165"] = new Achievement("165", "Blood for the Blood God", "Sacrifice 1e10 population in total", "check_165");
+        this.achievements["166"] = new Achievement("166", "Black hole mass of the dimensions", "Reach 1e1e7 matter", "check_166");
         this.achievements["167"] = new Achievement("167", "Three Challenging Minutes", "Fully complete 36 challenges in total", "check_167");
         this.achievements["168"] = new Achievement("168", "All your Neutrons belong to us", "Complete Neutronic Meta-Challenge", "check_168");
+        
+        this.achievements["171"] = new Achievement("171", "Ultimate Spacetimed", "Complete Vacuumic Meta-Challenge", "check_171");
 
         this.upgrades = {};
         this.upgrades["INERTIA_1"] = new Upgrade("INERTIA_1", "section_inertia", -1, "upg_INERTIA_1_cost", "upg_INERTIA_1_power", "upg_INERTIA_1_unlock", "inertia", " of Inertia", "upg_INERTIA_1_available", "", "upg_INERTIA_1_cost_display_function", true);

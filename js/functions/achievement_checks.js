@@ -569,8 +569,16 @@ functions["check_163"] = () => {
     return false; // external call
 };
 
+functions["check_164"] = () => {
+    return player.matter.gt("1e2500000");
+};
+
 functions["check_165"] = () => {
     return !player.population_sacrificed.lt(1e10);
+};
+
+functions["check_166"] = () => {
+    return player.matter.gt("1e10000000");
 };
 
 functions["check_167"] = () => {
@@ -583,4 +591,8 @@ functions["check_167"] = () => {
 
 functions["check_168"] = () => {
     return player.challenges['n0'].completed;
+};
+
+functions["check_171"] = () => {
+    return player.challenges['v0'].completed;
 };
