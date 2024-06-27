@@ -172,6 +172,28 @@ function format_number(number, fixed=false, ignore_infinity=false, notation="", 
             }
             result = result.split("").reverse().join("");
             break;
+            case "Letters":
+            const letters = "abcdefghijklmnopqrstuvwxyz";
+            let letters_repr = 1;
+            num_lg = number.log(2).toInt() - 2 / 3;
+            if (num_lg < -1e100) num_lg = -Infinity;
+            for (let i = 0; i < 31; i++) {
+                letters_repr *= 2;
+                if (num_lg >= 0) {
+                    letters_repr += 1;
+                    num_lg = modified_log2(num_lg);
+                }
+                else {
+                    num_lg = -modified_log2(-num_lg);
+                }
+            }
+            if (!num_sgn) hex_repr = Math.pow(2, 32) - letters_repr;
+            for (let i = 0; i < 8; i++) {
+                result += letters[letters_repr % 26];
+                letters_repr = Math.floor(letters_repr / 26);
+            }
+            result = result.split("").reverse().join("");
+            break;
         case "emoji":
             const EMOJI_REPLACEMENTS = {
                 '0': '0️⃣', '1': '1️⃣', '2': '2️⃣', '3': '3️⃣', '4': '4️⃣',
