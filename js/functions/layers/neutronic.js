@@ -11,7 +11,7 @@ function prestige_earn_neutrons() {
     var base_neutrons = base_dimensions.log(base);
 
     // achievement 45: neutron gain is squared
-    if (player.achievements['45'].complete) base_neutrons = base_neutrons.pow(2);
+    if (player.achievements['45'].complete) base_neutrons = base_neutrons.pow(30);
 
     if (!base_neutrons.lt(1)) {
         // Neutronic Challenge 6 reward: gain more Neutrons
