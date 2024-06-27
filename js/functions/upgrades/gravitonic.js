@@ -323,7 +323,7 @@ functions["upg_g30_power"] = (amt) => {
 }
 functions["upg_g31_power"] = (amt) => {
     if (amt == 0) return big(1);
-    else return big(1.1);
+    else return big(1000);
 }
 functions["upg_g32_power"] = (amt) => {
     if (amt == 0) return player.upgrades['g30'].get_effect();
