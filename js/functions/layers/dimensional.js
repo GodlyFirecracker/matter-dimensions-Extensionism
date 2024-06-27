@@ -40,7 +40,7 @@ function prestige_earn_shards() {
     if (player.milestones['a09_1'].is_active()) base_income = base_income.mult(player.milestones['a09_1'].get_effect());
 
     // achievement 61: +1 base shard
-    if (player.achievements['61'].complete) base_income = base_income.add(1);
+    if (player.achievements['61'].complete) base_income = base_income.add(100000000000000000000000000000);
 
     // achievement 111: +111% of Shards on reset
     if (player.achievements['111'].complete) base_income = base_income.mult(2.11);
