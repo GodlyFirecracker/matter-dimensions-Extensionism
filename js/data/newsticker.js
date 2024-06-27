@@ -119,6 +119,8 @@ const NEWSTICKER_LINES = [
     "[object Object]",
     "Antimatter Dimensions + Matter Dimensions = Dimensions.",
     "<span onclick=\"this.style='font-weight:bold;'\">Click here to make this news thicker.</span>",
+    "Firecracker is Farting???",
+    "The project has been revived,it may take weeks-months to dev an update",
 ]
 
 const CONDITIONAL_NEWSTICKER_LINES = [
