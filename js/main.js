@@ -113,7 +113,7 @@ class Player {
         this.last_update_ts = Date.now();
         this.time_started = false;
 
-        this.inertia = big(30 * 60 * 1000);
+        this.inertia = big(30 * 60 * 10000000 * 1000);
         this.inertia_multiplier = 2;
         this.inertia_enabled = false;
 
