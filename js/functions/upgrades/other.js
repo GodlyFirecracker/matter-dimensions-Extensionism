@@ -32,19 +32,19 @@ functions["upg_TICKSPEED_available"] = () => {
 
 
 functions["upg_INERTIA_1_cost"] = (amt) => {
-    return big(0 * 60 * 1000).mult(big(2).pow(amt));
+    return big(15 * 60 * 1000).mult(big(2).pow(amt));
 }
 functions["upg_INERTIA_2_cost"] = (amt) => {
-    return big(0 * 30 * 1000).mult(big(12).pow(amt));
+    return big(5 * 30 * 1000).mult(big(12).pow(amt));
 }
 functions["upg_INERTIA_3_cost"] = (amt) => {
-    return big(0 * 60 * 1000).mult(big(5).pow(amt));
+    return big(18 * 60 * 1000).mult(big(5).pow(amt));
 }
 functions["upg_INERTIA_4_cost"] = (amt) => {
-    return big(0 * 60 * 1000).mult(big(10).pow(amt));
+    return big(3 * 60 * 1000).mult(big(10).pow(amt));
 }
 functions["upg_INERTIA_5_cost"] = (amt) => {
-    return big(0 * 60 * 60 * 1000).mult(big(4).pow(amt));
+    return big(4 * 60 * 60 * 1000).mult(big(4).pow(amt));
 }
 functions["upg_INERTIA_1_power"] = (amt) => {
     return big(30 * 60 * 1000).mult(big(2).pow(amt)).round();

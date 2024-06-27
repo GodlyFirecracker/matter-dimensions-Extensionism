@@ -5,7 +5,7 @@ function prestige_earn_photons() {
 
     var base_photons = player.energy.pow(formula_exponent);
     // achievement 15: x3.14 photons
-    if (player.achievements['15'].complete) base_photons = base_photons.mult(31415);
+    if (player.achievements['15'].complete) base_photons = base_photons.mult(3.14);
     // p23: gain more photons over time
     if (player.upgrades['p23'].is_active()) base_photons = base_photons.mult(player.upgrades['p23'].get_effect());
     // n23: gain more photons

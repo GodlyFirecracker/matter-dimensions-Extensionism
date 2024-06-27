@@ -93,28 +93,28 @@ functions["end_n0"] = () => {
 };
 
 functions["goal_amt_n1"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(4).pow(c-1).mult(100));
 };
 functions["goal_amt_n2"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(6).pow(c-1).mult(100));
 };
 functions["goal_amt_n3"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(3).pow(c-1).mult(100));
 };
 functions["goal_amt_n4"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(9).pow(c-1).mult(100));
 };
 functions["goal_amt_n5"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(8).pow(c-1).mult(100));
 };
 functions["goal_amt_n6"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(5).pow(c-1).mult(100));
 };
 functions["goal_amt_n7"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(2).pow(c-1).mult(100));
 };
 functions["goal_amt_n8"] = (c) => {
-    return big(10).pow(big(1).pow(c-1).mult(100));
+    return big(10).pow(big(7).pow(c-1).mult(100));
 };
 functions["goal_amt_n0"] = (c) => {
     let base_exp = big(1e10);

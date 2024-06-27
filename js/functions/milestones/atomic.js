@@ -257,7 +257,7 @@ functions["a01_1_effect"] = () => {
     return big(2).pow(base_reward - 1);
 }
 functions["a01_2_effect"] = () => {
-    return get_atom_level('a01').max(10000000000000000000000000000000000000);
+    return get_atom_level('a01').max(1);
 }
 functions["a01_3_effect"] = () => {
     return big(1);
@@ -292,7 +292,7 @@ functions["a02_4_effect"] = () => {
 }
 
 functions["a03_1_effect"] = () => {
-    return get_atom_level('a03').add(10000000000000000000000000000000000000);
+    return get_atom_level('a03').add(1);
 }
 functions["a03_2_effect"] = () => {
     return big(1);
